@@ -47,7 +47,7 @@ Dentro de dicho panel seleccionaremos la clase de paǵina que desees, y la nombr
 
 ### 4. Escribe el código
 * Crea una carpeta que se llame ```app``` y dentro de ella crea o copia el archivo ```app.py```. Teniendo como resultado algo como **```/app/app.py```**
-* Abre tu editor de textos y copia el código de ```app.py```, sustituye tu token generado en el paso anterior en **PAGE_ACCESS_TOKEN** y ejecútalo desde la terminal (recuerda que debes de ubicarte en el directorio ```/app```) con **```python app.py```** (Puedes usar la versión 3 de python, solo debes de sustituir ```python``` por ```python3```).
+* Abre tu editor de textos y copia el código de ```app.py```, sustituye tu token generado en el paso anterior en **PAGE_ACCESS_TOKEN** y ejecútalo desde la terminal (recuerda que debes de ubicarte en el directorio ```/app``` que creaste) con **```python app.py```** (Puedes usar la versión 3 de python, solo debes de sustituir ```python``` por ```python3```).
 
 * Si todo sale bien el "servidor" de Flask se levantará en el **localhost** con el puerto **5000**, estará en el modo debug. Deberás ver una pantalla como la siguiente:
 
@@ -129,7 +129,7 @@ In this panel, we should select the page type that best fits our needs, and you 
 
 ### 4. Let's code!
 * Make a folder and name it ```app``` and inside it create a file named ```app.py```. Having something like **```/app/app.py```**
-* In your favorite text editor open ```app.py```, and substitute in the code **PAGE_ACCESS_TOKEN** with the token cretated in the previous step. Then run the code (remember that you have to be inside teh directory ```/app```) with **```python app.py```** (You can use the latest version of python, you just have to substitute ```python``` with ```python3```).
+* In your favorite text editor open ```app.py```, and substitute in the code **PAGE_ACCESS_TOKEN** with the token cretated in the previous step. Then run the code (remember that you have to be inside teh directory ```/app``` that you just creaetd) with **```python app.py```** (You can use the latest version of python, you just have to substitute ```python``` with ```python3```).
 
 * If everything goes ok, our Flask "server" wil be running on our **localhost** in the port **5000**, it will be in debug mode. You should see a screen like this:
 
