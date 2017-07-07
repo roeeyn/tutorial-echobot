@@ -68,4 +68,17 @@ Dentro de dicho panel seleccionaremos la clase de paǵina que desees, y la nombr
 
 ### 7. Prueba tu app
 * Ya has configurado todo. Ahora es momento de ir a https://www.messenger.com/, iniciar sesión en caso de que no lo haga automáticamente, buscar tu página, y mandarle un mensaje. La página debería de responder con tu mismo mensaje, y en caso de que no envies texto, éste lo detectará y te mandará otro mensaje. 
+Se verá algo como la siguiente imagen:
 
+![alt_text](https://user-images.githubusercontent.com/13385000/27943005-3b1d943a-62a1-11e7-9458-11b78bb7c228.png)
+
+### Problemas comunes
+* Si tu bot no responde, prueba con lo siguiente:
+  * Asegúrate que tu ```ngrok``` esté corriendo, y en el puerto 5000.
+  * Asegúrate que ```app.py``` esté corriendo, y se esté ejecutando en el puerto 5000.
+  * Recuerda que cada vez que reinicias ```ngrok``` se cambia la url, entonces asegúrate que en la configuración de tu webhook esté tu url actual, y que al final de la url, hayas escrito ```/webhook```.
+  * Asegúrate que hayas cambiado en el archivo ```app.py``` tu token de la página, y si cambiaste el código de verificación, asegúrate que esté igual tanto en la configuración del webhook como en la página.
+  * Asegúrate que la aplicación esté suscrita a tu página.
+  
+  ### Pasos siguientes:
+  * Como habrás notado, cada que terminas ngrok, tu bot "muere". Esto se debe a que tu computadora está sirviendo como servidor. Para solucionar este problema puedes meter tu aplicación a un contenedor con Docker, y subir dicho contenedor a alguna plataforma como Heroku. As se mantendrá "vivo" todo el tiempo tu bot.
