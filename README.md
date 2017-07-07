@@ -84,8 +84,8 @@ Si tu bot no responde, prueba con lo siguiente:
  * Asegúrate que hayas cambiado en el archivo ```app.py``` tu token de la página, y si cambiaste el código de verificación, asegúrate que esté igual tanto en la configuración del webhook como en la página.
  * Asegúrate que la aplicación esté suscrita a tu página.
   
-  ### Pasos siguientes:
-  * Como habrás notado, cada que terminas ngrok, tu bot "muere". Esto se debe a que tu computadora está sirviendo como servidor. Para solucionar este problema puedes meter tu aplicación a un contenedor con Docker, y subir dicho contenedor a alguna plataforma como Heroku. As se mantendrá "vivo" todo el tiempo tu bot. Seguiré trabajando en un tutorial que haga eso.
+### Pasos siguientes:
+* Como habrás notado, cada que terminas ngrok, tu bot "muere". Esto se debe a que tu computadora está sirviendo como servidor. Para solucionar este problema puedes meter tu aplicación a un contenedor con Docker, y subir dicho contenedor a alguna plataforma como Heroku. As se mantendrá "vivo" todo el tiempo tu bot. Seguiré trabajando en un tutorial que haga eso.
 
 ## English
 
