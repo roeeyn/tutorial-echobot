@@ -1,6 +1,6 @@
 # Tutorial-Echobot
 
-Un Bot de Facebook Messenger básico que te responde lo que tú escribiste./A Basic Facebook Messenger Bot that reply with the message you sent.
+Un bot básico de Facebook Messenger que te responde lo que tú escribiste./A basic Facebook Messenger bot that replies with the message you sent.
 
 Si te gustó este tutorial, dale una estrella./If you liked this tutorial, please give it a star.
 
