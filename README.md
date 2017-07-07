@@ -77,7 +77,7 @@ Se verá algo como la siguiente imagen:
 ![alt_text](https://user-images.githubusercontent.com/13385000/27943005-3b1d943a-62a1-11e7-9458-11b78bb7c228.png)
 
 ### Problemas comunes
-* Si tu bot no responde, prueba con lo siguiente:
+Si tu bot no responde, prueba con lo siguiente:
  * Asegúrate que tu ```ngrok``` esté corriendo, y en el puerto 5000.
  * Asegúrate que ```app.py``` esté corriendo, y se esté ejecutando en el puerto 5000.
  * Recuerda que cada vez que reinicias ```ngrok``` se cambia la url, entonces asegúrate que en la configuración de tu webhook esté tu url actual, y que al final de la url, hayas escrito ```/webhook```.
